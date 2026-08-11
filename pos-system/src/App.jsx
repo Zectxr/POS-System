@@ -10,7 +10,8 @@ function App() {
       <h1>My POS System</h1>
       <ProductList setCart={setCart} />
       <h2>Cart</h2>
-      
+
+      <p>Items in cart: {cart.length}</p>
     </div>
   );
 }
